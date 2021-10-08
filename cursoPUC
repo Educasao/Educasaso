@@ -1,0 +1,14 @@
+pragma solidity 0.8.9;
+contract cartaodevacinacao { 
+    //autor:eduardo da graca
+    string constant public nome = "eduardo da graca";
+    string public dose = "primeira";
+    string constant public unit= "ubs centro";
+    uint public cnaes = 254555021;
+    string public date = "07.10.2021";
+    uint private lote = 1342345;
+    string constant public fabricante= "pfizer";
+    string public medico = "dr. paulo";
+    bool public imunizado = true;
+    address private wallet= 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+} 
